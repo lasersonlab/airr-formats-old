@@ -1,0 +1,315 @@
+{
+  "name": "airr",
+  "namespaces": {
+    "*": "airr"
+  },
+  "includes": [
+  ],
+  "enums": [
+    {
+      "name": "Origin",
+      "members": [
+        {
+          "name": "HUMAN",
+          "value": 0
+        },
+        {
+          "name": "ANIMAL",
+          "value": 1
+        },
+        {
+          "name": "SYNTHETIC",
+          "value": 2
+        }
+      ]
+    },
+    {
+      "name": "Sex",
+      "members": [
+        {
+          "name": "MALE",
+          "value": 0
+        },
+        {
+          "name": "FEMALE",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "name": "Locus",
+      "members": [
+        {
+          "name": "IGH",
+          "value": 0
+        },
+        {
+          "name": "IGK",
+          "value": 1
+        },
+        {
+          "name": "IGL",
+          "value": 2
+        },
+        {
+          "name": "TRB",
+          "value": 3
+        },
+        {
+          "name": "TRA",
+          "value": 4
+        },
+        {
+          "name": "TRG",
+          "value": 5
+        },
+        {
+          "name": "TRD",
+          "value": 6
+        }
+      ]
+    }
+  ],
+  "typedefs": [
+  ],
+  "structs": [
+    {
+      "name": "Study",
+      "isException": false,
+      "isUnion": false,
+      "fields": [
+        {
+          "key": 1,
+          "name": "id",
+          "typeId": "binary",
+          "required": "optional"
+        },
+        {
+          "key": 2,
+          "name": "title",
+          "typeId": "binary",
+          "required": "optional"
+        },
+        {
+          "key": 3,
+          "name": "labName",
+          "typeId": "binary",
+          "required": "optional"
+        },
+        {
+          "key": 4,
+          "name": "correspondence",
+          "typeId": "binary",
+          "required": "optional"
+        },
+        {
+          "key": 5,
+          "name": "doi",
+          "typeId": "binary",
+          "required": "optional"
+        }
+      ]
+    },
+    {
+      "name": "Subject",
+      "isException": false,
+      "isUnion": false,
+      "fields": [
+        {
+          "key": 1,
+          "name": "id",
+          "typeId": "binary",
+          "required": "optional"
+        },
+        {
+          "key": 2,
+          "name": "origin",
+          "typeId": "i32",
+          "required": "optional"
+        },
+        {
+          "key": 3,
+          "name": "sex",
+          "typeId": "i32",
+          "required": "optional"
+        },
+        {
+          "key": 4,
+          "name": "age",
+          "typeId": "binary",
+          "required": "optional"
+        }
+      ]
+    },
+    {
+      "name": "Sample",
+      "isException": false,
+      "isUnion": false,
+      "fields": [
+        {
+          "key": 1,
+          "name": "id",
+          "typeId": "binary",
+          "required": "optional"
+        },
+        {
+          "key": 2,
+          "name": "type",
+          "typeId": "binary",
+          "required": "optional"
+        },
+        {
+          "key": 3,
+          "name": "source",
+          "typeId": "binary",
+          "required": "optional"
+        },
+        {
+          "key": 4,
+          "name": "dt",
+          "typeId": "binary",
+          "required": "optional"
+        }
+      ]
+    },
+    {
+      "name": "Chain",
+      "isException": false,
+      "isUnion": false,
+      "fields": [
+        {
+          "key": 1,
+          "name": "id",
+          "typeId": "binary",
+          "required": "optional"
+        },
+        {
+          "key": 2,
+          "name": "ntSeq",
+          "typeId": "binary",
+          "required": "optional"
+        },
+        {
+          "key": 3,
+          "name": "locus",
+          "typeId": "i32",
+          "required": "optional"
+        },
+        {
+          "key": 4,
+          "name": "vAllele",
+          "typeId": "binary",
+          "required": "optional"
+        },
+        {
+          "key": 5,
+          "name": "dAllele",
+          "typeId": "binary",
+          "required": "optional"
+        },
+        {
+          "key": 6,
+          "name": "jAllele",
+          "typeId": "binary",
+          "required": "optional"
+        },
+        {
+          "key": 7,
+          "name": "alignment",
+          "typeId": "binary",
+          "required": "optional"
+        },
+        {
+          "key": 8,
+          "name": "ntCDR3",
+          "typeId": "binary",
+          "required": "optional"
+        }
+      ]
+    },
+    {
+      "name": "FindCdr3Req",
+      "isException": false,
+      "isUnion": false,
+      "fields": [
+        {
+          "key": 1,
+          "name": "cdr3",
+          "typeId": "binary",
+          "required": "required"
+        },
+        {
+          "key": 2,
+          "name": "locus",
+          "typeId": "i32",
+          "required": "required"
+        },
+        {
+          "key": 3,
+          "name": "studyIds",
+          "typeId": "list",
+          "type": {
+            "typeId": "list",
+            "elemTypeId": "binary"
+          },
+          "required": "optional"
+        }
+      ]
+    },
+    {
+      "name": "FindCdr3Resp",
+      "isException": false,
+      "isUnion": false,
+      "fields": [
+        {
+          "key": 1,
+          "name": "found",
+          "typeId": "binary",
+          "required": "required"
+        },
+        {
+          "key": 2,
+          "name": "specificities",
+          "typeId": "list",
+          "type": {
+            "typeId": "list",
+            "elemTypeId": "binary"
+          },
+          "required": "optional"
+        }
+      ]
+    }
+  ],
+  "constants": [
+  ],
+  "services": [
+    {
+      "name": "Repository",
+      "functions": [
+        {
+          "name": "findCdr3",
+          "returnTypeId": "struct",
+          "returnType": {
+            "typeId": "struct",
+            "class": "FindCdr3Resp"
+          },
+          "oneway": false,
+          "arguments": [
+            {
+              "key": 1,
+              "name": "req",
+              "typeId": "struct",
+              "type": {
+                "typeId": "struct",
+                "class": "FindCdr3Req"
+              },
+              "required": "req_out"
+            }
+          ],
+          "exceptions": [
+          ]
+        }
+      ]
+    }
+  ]
+}

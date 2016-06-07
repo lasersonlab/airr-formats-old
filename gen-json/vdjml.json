@@ -1,0 +1,1038 @@
+{
+  "name": "vdjml",
+  "namespaces": {
+    "*": "vdjserver"
+  },
+  "includes": [
+  ],
+  "enums": [
+    {
+      "name": "Aminoacid",
+      "members": [
+        {
+          "name": "Aminoacid__",
+          "value": 0
+        },
+        {
+          "name": "Aminoacid_A",
+          "value": 1
+        },
+        {
+          "name": "Aminoacid_Ala",
+          "value": 2
+        },
+        {
+          "name": "Aminoacid_Arg",
+          "value": 3
+        },
+        {
+          "name": "Aminoacid_Asn",
+          "value": 4
+        },
+        {
+          "name": "Aminoacid_Asp",
+          "value": 5
+        },
+        {
+          "name": "Aminoacid_C",
+          "value": 6
+        },
+        {
+          "name": "Aminoacid_Cys",
+          "value": 7
+        },
+        {
+          "name": "Aminoacid_D",
+          "value": 8
+        },
+        {
+          "name": "Aminoacid_E",
+          "value": 9
+        },
+        {
+          "name": "Aminoacid_F",
+          "value": 10
+        },
+        {
+          "name": "Aminoacid_G",
+          "value": 11
+        },
+        {
+          "name": "Aminoacid_Gln",
+          "value": 12
+        },
+        {
+          "name": "Aminoacid_Glu",
+          "value": 13
+        },
+        {
+          "name": "Aminoacid_Gly",
+          "value": 14
+        },
+        {
+          "name": "Aminoacid_H",
+          "value": 15
+        },
+        {
+          "name": "Aminoacid_His",
+          "value": 16
+        },
+        {
+          "name": "Aminoacid_I",
+          "value": 17
+        },
+        {
+          "name": "Aminoacid_Ile",
+          "value": 18
+        },
+        {
+          "name": "Aminoacid_K",
+          "value": 19
+        },
+        {
+          "name": "Aminoacid_L",
+          "value": 20
+        },
+        {
+          "name": "Aminoacid_Leu",
+          "value": 21
+        },
+        {
+          "name": "Aminoacid_Lys",
+          "value": 22
+        },
+        {
+          "name": "Aminoacid_M",
+          "value": 23
+        },
+        {
+          "name": "Aminoacid_Met",
+          "value": 24
+        },
+        {
+          "name": "Aminoacid_N",
+          "value": 25
+        },
+        {
+          "name": "Aminoacid_P",
+          "value": 26
+        },
+        {
+          "name": "Aminoacid_Phe",
+          "value": 27
+        },
+        {
+          "name": "Aminoacid_Pro",
+          "value": 28
+        },
+        {
+          "name": "Aminoacid_Q",
+          "value": 29
+        },
+        {
+          "name": "Aminoacid_R",
+          "value": 30
+        },
+        {
+          "name": "Aminoacid_S",
+          "value": 31
+        },
+        {
+          "name": "Aminoacid_Ser",
+          "value": 32
+        },
+        {
+          "name": "Aminoacid_Stop",
+          "value": 33
+        },
+        {
+          "name": "Aminoacid_T",
+          "value": 34
+        },
+        {
+          "name": "Aminoacid_Thr",
+          "value": 35
+        },
+        {
+          "name": "Aminoacid_Trp",
+          "value": 36
+        },
+        {
+          "name": "Aminoacid_Tyr",
+          "value": 37
+        },
+        {
+          "name": "Aminoacid_V",
+          "value": 38
+        },
+        {
+          "name": "Aminoacid_Val",
+          "value": 39
+        },
+        {
+          "name": "Aminoacid_W",
+          "value": 40
+        },
+        {
+          "name": "Aminoacid_X",
+          "value": 41
+        },
+        {
+          "name": "Aminoacid_Y",
+          "value": 42
+        },
+        {
+          "name": "Aminoacid_a",
+          "value": 43
+        },
+        {
+          "name": "Aminoacid_c",
+          "value": 44
+        },
+        {
+          "name": "Aminoacid_d",
+          "value": 45
+        },
+        {
+          "name": "Aminoacid_e",
+          "value": 46
+        },
+        {
+          "name": "Aminoacid_f",
+          "value": 47
+        },
+        {
+          "name": "Aminoacid_g",
+          "value": 48
+        },
+        {
+          "name": "Aminoacid_h",
+          "value": 49
+        },
+        {
+          "name": "Aminoacid_i",
+          "value": 50
+        },
+        {
+          "name": "Aminoacid_k",
+          "value": 51
+        },
+        {
+          "name": "Aminoacid_l",
+          "value": 52
+        },
+        {
+          "name": "Aminoacid_m",
+          "value": 53
+        },
+        {
+          "name": "Aminoacid_n",
+          "value": 54
+        },
+        {
+          "name": "Aminoacid_p",
+          "value": 55
+        },
+        {
+          "name": "Aminoacid_q",
+          "value": 56
+        },
+        {
+          "name": "Aminoacid_r",
+          "value": 57
+        },
+        {
+          "name": "Aminoacid_s",
+          "value": 58
+        },
+        {
+          "name": "Aminoacid_t",
+          "value": 59
+        },
+        {
+          "name": "Aminoacid_v",
+          "value": 60
+        },
+        {
+          "name": "Aminoacid_w",
+          "value": 61
+        },
+        {
+          "name": "Aminoacid_x",
+          "value": 62
+        },
+        {
+          "name": "Aminoacid_y",
+          "value": 63
+        }
+      ]
+    },
+    {
+      "name": "Nucleotide_ambiguous",
+      "members": [
+        {
+          "name": "Nucleotide_ambiguous_B",
+          "value": 0
+        },
+        {
+          "name": "Nucleotide_ambiguous_D",
+          "value": 1
+        },
+        {
+          "name": "Nucleotide_ambiguous_H",
+          "value": 2
+        },
+        {
+          "name": "Nucleotide_ambiguous_K",
+          "value": 3
+        },
+        {
+          "name": "Nucleotide_ambiguous_M",
+          "value": 4
+        },
+        {
+          "name": "Nucleotide_ambiguous_N",
+          "value": 5
+        },
+        {
+          "name": "Nucleotide_ambiguous_R",
+          "value": 6
+        },
+        {
+          "name": "Nucleotide_ambiguous_S",
+          "value": 7
+        },
+        {
+          "name": "Nucleotide_ambiguous_V",
+          "value": 8
+        },
+        {
+          "name": "Nucleotide_ambiguous_W",
+          "value": 9
+        },
+        {
+          "name": "Nucleotide_ambiguous_Y",
+          "value": 10
+        },
+        {
+          "name": "Nucleotide_ambiguous_b",
+          "value": 11
+        },
+        {
+          "name": "Nucleotide_ambiguous_d",
+          "value": 12
+        },
+        {
+          "name": "Nucleotide_ambiguous_h",
+          "value": 13
+        },
+        {
+          "name": "Nucleotide_ambiguous_k",
+          "value": 14
+        },
+        {
+          "name": "Nucleotide_ambiguous_m",
+          "value": 15
+        },
+        {
+          "name": "Nucleotide_ambiguous_n",
+          "value": 16
+        },
+        {
+          "name": "Nucleotide_ambiguous_r",
+          "value": 17
+        },
+        {
+          "name": "Nucleotide_ambiguous_s",
+          "value": 18
+        },
+        {
+          "name": "Nucleotide_ambiguous_v",
+          "value": 19
+        },
+        {
+          "name": "Nucleotide_ambiguous_w",
+          "value": 20
+        },
+        {
+          "name": "Nucleotide_ambiguous_y",
+          "value": 21
+        }
+      ]
+    },
+    {
+      "name": "Nucleotide_defined",
+      "members": [
+        {
+          "name": "Nucleotide_defined_A",
+          "value": 0
+        },
+        {
+          "name": "Nucleotide_defined_C",
+          "value": 1
+        },
+        {
+          "name": "Nucleotide_defined_G",
+          "value": 2
+        },
+        {
+          "name": "Nucleotide_defined_T",
+          "value": 3
+        },
+        {
+          "name": "Nucleotide_defined_U",
+          "value": 4
+        },
+        {
+          "name": "Nucleotide_defined_a",
+          "value": 5
+        },
+        {
+          "name": "Nucleotide_defined_c",
+          "value": 6
+        },
+        {
+          "name": "Nucleotide_defined_g",
+          "value": 7
+        },
+        {
+          "name": "Nucleotide_defined_t",
+          "value": 8
+        },
+        {
+          "name": "Nucleotide_defined_u",
+          "value": 9
+        }
+      ]
+    },
+    {
+      "name": "Segment_type",
+      "members": [
+        {
+          "name": "Segment_type_D",
+          "value": 0
+        },
+        {
+          "name": "Segment_type_J",
+          "value": 1
+        },
+        {
+          "name": "Segment_type_V",
+          "value": 2
+        }
+      ]
+    }
+  ],
+  "typedefs": [
+  ],
+  "structs": [
+    {
+      "name": "UnspecifiedType",
+      "isException": false,
+      "isUnion": false,
+      "fields": [
+        {
+          "key": 1,
+          "name": "baseObjectType",
+          "typeId": "binary",
+          "required": "required"
+        },
+        {
+          "key": 2,
+          "name": "object",
+          "typeId": "binary",
+          "required": "required"
+        }
+      ]
+    },
+    {
+      "name": "aa_substitutionType",
+      "isException": false,
+      "isUnion": false,
+      "fields": [
+        {
+          "key": 1,
+          "name": "gl_aa",
+          "typeId": "i32",
+          "required": "required"
+        },
+        {
+          "key": 2,
+          "name": "read_aa",
+          "typeId": "i32",
+          "required": "required"
+        },
+        {
+          "key": 3,
+          "name": "read_pos0",
+          "typeId": "binary",
+          "required": "required"
+        }
+      ]
+    },
+    {
+      "name": "alignerType",
+      "isException": false,
+      "isUnion": false,
+      "fields": [
+        {
+          "key": 1,
+          "name": "aligner_id",
+          "typeId": "binary",
+          "required": "required"
+        },
+        {
+          "key": 2,
+          "name": "name",
+          "typeId": "binary",
+          "required": "required"
+        },
+        {
+          "key": 3,
+          "name": "parameters",
+          "typeId": "binary",
+          "required": "optional"
+        },
+        {
+          "key": 4,
+          "name": "run_id",
+          "typeId": "binary",
+          "required": "optional"
+        },
+        {
+          "key": 5,
+          "name": "uri",
+          "typeId": "struct",
+          "type": {
+            "typeId": "struct",
+            "class": "UnspecifiedType"
+          },
+          "required": "optional"
+        },
+        {
+          "key": 6,
+          "name": "version",
+          "typeId": "binary",
+          "required": "optional"
+        }
+      ]
+    },
+    {
+      "name": "generatorType",
+      "isException": false,
+      "isUnion": false,
+      "fields": [
+        {
+          "key": 1,
+          "name": "name",
+          "typeId": "binary",
+          "required": "required"
+        },
+        {
+          "key": 2,
+          "name": "time_gmt",
+          "typeId": "binary",
+          "required": "required"
+        },
+        {
+          "key": 3,
+          "name": "version",
+          "typeId": "binary",
+          "required": "required"
+        }
+      ]
+    },
+    {
+      "name": "germline_dbType",
+      "isException": false,
+      "isUnion": false,
+      "fields": [
+        {
+          "key": 1,
+          "name": "gl_db_id",
+          "typeId": "binary",
+          "required": "required"
+        },
+        {
+          "key": 2,
+          "name": "name",
+          "typeId": "binary",
+          "required": "required"
+        },
+        {
+          "key": 3,
+          "name": "species",
+          "typeId": "binary",
+          "required": "required"
+        },
+        {
+          "key": 4,
+          "name": "uri",
+          "typeId": "struct",
+          "type": {
+            "typeId": "struct",
+            "class": "UnspecifiedType"
+          },
+          "required": "optional"
+        },
+        {
+          "key": 5,
+          "name": "version",
+          "typeId": "binary",
+          "required": "required"
+        }
+      ]
+    },
+    {
+      "name": "gl_seg_matchType",
+      "isException": false,
+      "isUnion": false,
+      "fields": [
+        {
+          "key": 1,
+          "name": "aligner_id",
+          "typeId": "binary",
+          "required": "required"
+        },
+        {
+          "key": 2,
+          "name": "gl_db_id",
+          "typeId": "binary",
+          "required": "required"
+        },
+        {
+          "key": 3,
+          "name": "gl_pos0",
+          "typeId": "binary",
+          "required": "required"
+        },
+        {
+          "key": 4,
+          "name": "gl_seg_match_id",
+          "typeId": "binary",
+          "required": "required"
+        },
+        {
+          "key": 5,
+          "name": "name",
+          "typeId": "binary",
+          "required": "required"
+        },
+        {
+          "key": 6,
+          "name": "num_system",
+          "typeId": "binary",
+          "required": "required"
+        },
+        {
+          "key": 7,
+          "name": "type",
+          "typeId": "i32",
+          "required": "required"
+        }
+      ]
+    },
+    {
+      "name": "metaType",
+      "isException": false,
+      "isUnion": false,
+      "fields": [
+        {
+          "key": 1,
+          "name": "aligner",
+          "typeId": "struct",
+          "type": {
+            "typeId": "struct",
+            "class": "alignerType"
+          },
+          "required": "optional"
+        },
+        {
+          "key": 2,
+          "name": "generator",
+          "typeId": "struct",
+          "type": {
+            "typeId": "struct",
+            "class": "generatorType"
+          },
+          "required": "required"
+        },
+        {
+          "key": 3,
+          "name": "germline_db",
+          "typeId": "struct",
+          "type": {
+            "typeId": "struct",
+            "class": "germline_dbType"
+          },
+          "required": "optional"
+        }
+      ]
+    },
+    {
+      "name": "regionType",
+      "isException": false,
+      "isUnion": false,
+      "fields": [
+        {
+          "key": 1,
+          "name": "aligner_id",
+          "typeId": "binary",
+          "required": "required"
+        },
+        {
+          "key": 2,
+          "name": "deletions",
+          "typeId": "binary",
+          "required": "optional"
+        },
+        {
+          "key": 3,
+          "name": "identity",
+          "typeId": "binary",
+          "required": "optional"
+        },
+        {
+          "key": 4,
+          "name": "insertions",
+          "typeId": "binary",
+          "required": "optional"
+        },
+        {
+          "key": 5,
+          "name": "inverted",
+          "typeId": "binary",
+          "required": "optional"
+        },
+        {
+          "key": 6,
+          "name": "mutated_invariant",
+          "typeId": "binary",
+          "required": "optional"
+        },
+        {
+          "key": 7,
+          "name": "name",
+          "typeId": "binary",
+          "required": "required"
+        },
+        {
+          "key": 8,
+          "name": "num_system",
+          "typeId": "binary",
+          "required": "optional"
+        },
+        {
+          "key": 9,
+          "name": "out_frame_indel",
+          "typeId": "binary",
+          "required": "optional"
+        },
+        {
+          "key": 10,
+          "name": "out_frame_vdj",
+          "typeId": "binary",
+          "required": "optional"
+        },
+        {
+          "key": 11,
+          "name": "read_len",
+          "typeId": "binary",
+          "required": "required"
+        },
+        {
+          "key": 12,
+          "name": "read_pos0",
+          "typeId": "binary",
+          "required": "required"
+        },
+        {
+          "key": 13,
+          "name": "score",
+          "typeId": "binary",
+          "required": "optional"
+        },
+        {
+          "key": 14,
+          "name": "stop_codon",
+          "typeId": "binary",
+          "required": "optional"
+        },
+        {
+          "key": 15,
+          "name": "substitutions",
+          "typeId": "binary",
+          "required": "optional"
+        }
+      ]
+    },
+    {
+      "name": "segment_matchType",
+      "isException": false,
+      "isUnion": false,
+      "fields": [
+        {
+          "key": 1,
+          "name": "aa_substitution",
+          "typeId": "list",
+          "type": {
+            "typeId": "list",
+            "elemTypeId": "struct",
+            "elemType": {
+              "typeId": "struct",
+              "class": "aa_substitutionType"
+            }
+          },
+          "required": "optional"
+        },
+        {
+          "key": 2,
+          "name": "btop",
+          "typeId": "binary",
+          "required": "required"
+        },
+        {
+          "key": 3,
+          "name": "deletions",
+          "typeId": "binary",
+          "required": "optional"
+        },
+        {
+          "key": 4,
+          "name": "gl_len",
+          "typeId": "binary",
+          "required": "required"
+        },
+        {
+          "key": 5,
+          "name": "gl_seg_match",
+          "typeId": "list",
+          "type": {
+            "typeId": "list",
+            "elemTypeId": "struct",
+            "elemType": {
+              "typeId": "struct",
+              "class": "gl_seg_matchType"
+            }
+          },
+          "required": "required"
+        },
+        {
+          "key": 6,
+          "name": "identity",
+          "typeId": "binary",
+          "required": "optional"
+        },
+        {
+          "key": 7,
+          "name": "insertions",
+          "typeId": "binary",
+          "required": "optional"
+        },
+        {
+          "key": 8,
+          "name": "inverted",
+          "typeId": "binary",
+          "required": "optional"
+        },
+        {
+          "key": 9,
+          "name": "mutated_invariant",
+          "typeId": "binary",
+          "required": "optional"
+        },
+        {
+          "key": 10,
+          "name": "out_frame_indel",
+          "typeId": "binary",
+          "required": "optional"
+        },
+        {
+          "key": 11,
+          "name": "out_frame_vdj",
+          "typeId": "binary",
+          "required": "optional"
+        },
+        {
+          "key": 12,
+          "name": "read_len",
+          "typeId": "binary",
+          "required": "required"
+        },
+        {
+          "key": 13,
+          "name": "read_pos0",
+          "typeId": "binary",
+          "required": "required"
+        },
+        {
+          "key": 14,
+          "name": "score",
+          "typeId": "binary",
+          "required": "optional"
+        },
+        {
+          "key": 15,
+          "name": "segment_match_id",
+          "typeId": "binary",
+          "required": "required"
+        },
+        {
+          "key": 16,
+          "name": "stop_codon",
+          "typeId": "binary",
+          "required": "optional"
+        },
+        {
+          "key": 17,
+          "name": "substitutions",
+          "typeId": "binary",
+          "required": "optional"
+        }
+      ]
+    },
+    {
+      "name": "combinationType",
+      "isException": false,
+      "isUnion": false,
+      "fields": [
+        {
+          "key": 1,
+          "name": "region",
+          "typeId": "list",
+          "type": {
+            "typeId": "list",
+            "elemTypeId": "struct",
+            "elemType": {
+              "typeId": "struct",
+              "class": "regionType"
+            }
+          },
+          "required": "optional"
+        },
+        {
+          "key": 2,
+          "name": "segments",
+          "typeId": "list",
+          "type": {
+            "typeId": "list",
+            "elemTypeId": "binary"
+          },
+          "required": "required"
+        }
+      ]
+    },
+    {
+      "name": "vdj_alignmentType",
+      "isException": false,
+      "isUnion": false,
+      "fields": [
+        {
+          "key": 1,
+          "name": "combination",
+          "typeId": "list",
+          "type": {
+            "typeId": "list",
+            "elemTypeId": "struct",
+            "elemType": {
+              "typeId": "struct",
+              "class": "combinationType"
+            }
+          },
+          "required": "required"
+        },
+        {
+          "key": 2,
+          "name": "segment_match",
+          "typeId": "list",
+          "type": {
+            "typeId": "list",
+            "elemTypeId": "struct",
+            "elemType": {
+              "typeId": "struct",
+              "class": "segment_matchType"
+            }
+          },
+          "required": "required"
+        }
+      ]
+    },
+    {
+      "name": "readType",
+      "isException": false,
+      "isUnion": false,
+      "fields": [
+        {
+          "key": 1,
+          "name": "read_id",
+          "typeId": "binary",
+          "required": "required"
+        },
+        {
+          "key": 2,
+          "name": "vdj_alignment",
+          "typeId": "struct",
+          "type": {
+            "typeId": "struct",
+            "class": "vdj_alignmentType"
+          },
+          "required": "optional"
+        }
+      ]
+    },
+    {
+      "name": "read_resultsType",
+      "isException": false,
+      "isUnion": false,
+      "fields": [
+        {
+          "key": 1,
+          "name": "read",
+          "typeId": "struct",
+          "type": {
+            "typeId": "struct",
+            "class": "readType"
+          },
+          "required": "required"
+        }
+      ]
+    },
+    {
+      "name": "vdjmlType",
+      "isException": false,
+      "isUnion": false,
+      "fields": [
+        {
+          "key": 1,
+          "name": "meta",
+          "typeId": "struct",
+          "type": {
+            "typeId": "struct",
+            "class": "metaType"
+          },
+          "required": "required"
+        },
+        {
+          "key": 2,
+          "name": "read_results",
+          "typeId": "struct",
+          "type": {
+            "typeId": "struct",
+            "class": "read_resultsType"
+          },
+          "required": "required"
+        },
+        {
+          "key": 3,
+          "name": "version",
+          "typeId": "binary",
+          "required": "required"
+        }
+      ]
+    }
+  ],
+  "constants": [
+  ],
+  "services": [
+  ]
+}
